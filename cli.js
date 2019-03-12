@@ -19,7 +19,7 @@ if ( !isValidProjectName( options.name ) ) {
     process.exit();
 }
 
-( async() => {
+( async () => {
     try {
         await createReactWeb( options );
     } catch ( error ) {
