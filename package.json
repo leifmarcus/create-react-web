@@ -15,16 +15,19 @@
     },
     "author": "Leif Marcus",
     "license": "ISC",
+    "engines": {
+        "node": ">=10.14.1"
+    },
     "dependencies": {
+        "babel-eslint": "^10.0.1",
         "eslint": "^5.13.0",
         "eslint-config-prettier": "^4.0.0",
         "eslint-plugin-prettier": "^3.0.1",
         "eslint-plugin-react": "^7.12.4",
-        "prettier": "^1.16.4",
-        "prettier-eslint": "^8.8.2",
-        "babel-eslint": "^10.0.1",
         "minimist": "^1.2.0",
         "parse-git-config": "^3.0.0",
+        "prettier": "^1.16.4",
+        "prettier-eslint": "^8.8.2",
         "readline-sync": "^1.4.9"
     }
 }
